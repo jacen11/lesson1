@@ -4,9 +4,6 @@ import java.util.ArrayList;
 
 public class Order {
 
-    //содержать список Item-ов
-    //иметь конструктор по умолчанию конструктор принимающий произвольное число item-ов
-
     ArrayList<Item> items = new ArrayList<>();
 
     public Order(Item... items) {
